@@ -29,7 +29,7 @@ Institute:
 
 ## Features
 * Matte Anything with Simple Interaction
-* High Quality Matting Results
+* High Quality Matting and Mask Results
 * Ability to Process Transparent Object
 
 
@@ -61,9 +61,7 @@ pip install -e .
 Download pretrained models [SAM_vit_h](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth), [ViTMatte_vit_b](https://drive.google.com/file/d/1d97oKuITCeWgai2Tf3iNilt6rMSSYzkW/view?usp=sharing), and [GroundingDINO-T](https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth). Put them in ``./pretrained``
 
 ### Run our web-ui!
-```
-python matte_anything.py
-```
+
 
 ### How to use
 1. Upload the image and click on it (default: ``foreground point``).
@@ -85,11 +83,11 @@ python matte_anything.py
 
 ## Acknowledgement
 
-[Segment Anything](https://github.com/facebookresearch/segment-anything)
-[GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
-[stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
-[matte_Anything](https://github.com/hustvl/Matte-Anything)
-[ViTMatte](https://github.com/hustvl/ViTMatte),
+- [Segment Anything](https://github.com/facebookresearch/segment-anything)
+- [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
+- [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- [matte_Anything](https://github.com/hustvl/Matte-Anything)
+- [ViTMatte](https://github.com/hustvl/ViTMatte),
 
 ## Citation
 ```
