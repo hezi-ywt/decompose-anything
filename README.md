@@ -2,9 +2,9 @@
 <h1>decompose-anything</h1>
 <h3> use SAM and some new tech cooperating with Inpaint to decompose layers wisely.  </h3>
 
-Authors: 
+Authors: Wt.Y
 
-Institute:
+Institute: ZJU
 
 (<sup>:email:</sup>) corresponding author
 
