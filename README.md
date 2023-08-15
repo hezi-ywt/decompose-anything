@@ -29,9 +29,10 @@ Institute:
 
 ## Features
 * Inpaint wisely with Layer Knowledge and User design
-* Matte Anything with Simple Interaction
+* Layer perception
+* Decompose Anything with Simple Interaction
 * High Quality Matting and Mask Results
-* Ability to Process Transparent Object
+
   
 
 ## Quick Start
@@ -73,22 +74,20 @@ Download pretrained models [SAM_vit_h](https://dl.fbaipublicfiles.com/segment_an
 
 
 ## 📋 Todo List
-
-- [x] adjustable trimap generation
-- [x] arxiv tech report
-- [x] support user transparency correction
-- [x] support text input
-- [ ] add example data
-- [ ] finetune ViTMatte for better performance
+- [] Matte part
+- [] Inpaint part
+- [] layer perception
 
 
 ## Acknowledgement
 
 - [Segment Anything](https://github.com/facebookresearch/segment-anything)
 - [GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
+- 
 - [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
+- 
 - [matte_Anything](https://github.com/hustvl/Matte-Anything)
-- [ViTMatte](https://github.com/hustvl/ViTMatte),
+- [ViTMatte](https://github.com/hustvl/ViTMatte)
 
 ## Citation
 ```
