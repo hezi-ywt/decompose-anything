@@ -1,54 +1,40 @@
-# decompose-anything
-use SAM and some new tech to decompose layers wisely. 
 <div align="center">
-<h1>Matte Anything!🐒</h1>
-<h3> Interactive Natural Image Matting with Segment Anything Models </h3>
+<h1>decompose-anything</h1>
+<h3> use SAM and some new tech to decompose layers wisely.  </h3>
 
-Authors: [Jingfeng Yao](https://github.com/JingfengYao), [Xinggang Wang](https://scholar.google.com/citations?user=qNCTLV0AAAAJ&hl=zh-CN)<sup>:email:</sup>, [Lang Ye](https://github.com/YeL6), [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)
+Authors: 
 
-Institute: School of EIC, HUST
+Institute:
 
 (<sup>:email:</sup>) corresponding author
 
-[![arxiv paper](https://img.shields.io/badge/arxiv-paper-orange)](https://arxiv.org/abs/2306.04121)
-[![video](https://img.shields.io/badge/Demo-Video-blue)](https://github.com/hustvl/Matte-Anything/assets/74295796/dfe051c2-b5d1-442d-9eff-cd1fcfd1f51b)
-[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![authors](https://img.shields.io/badge/by-hustvl-green)](https://github.com/hustvl)
+
 
 </div>
 
-![demo](https://github.com/hustvl/Matte-Anything/assets/74295796/d947f59d-b0c1-4c22-9967-d8f2bf633879)
+
 
 #
 
-## 📢 News
+## News
 
-* **`2023/07/01`** We release a new version that enables text input and transparency correction!
-* **`2023/06/08`** We release arxiv tech report! 
-* **`2023/06/08`** We release source codes of Matte Anything!
+* **`2023/08/15`** Create repo
 
-The program is still in progress. You can try the early version first! Thanks for your attention. If you like Matte Anything, you may also like its previous foundation work [ViTMatte](https://github.com/hustvl/ViTMatte).
 
 #
 
-## 📜 Introduction
-
-We propose Matte Anything (MatAny), an interactive natural image matting model. It could produce high-quality alpha-matte with various simple hints. The key insight of MatAny is to generate pseudo trimap automatically with contour and transparency prediction. We leverage task-specific vision models to enhance the performance of natural image matting.
-
-![web_ui](figs/first.png)
+## Introduction
 
 
-## 🌞 Features
+
+## Features
 * Matte Anything with Simple Interaction
 * High Quality Matting Results
 * Ability to Process Transparent Object
 
 
-## 🎮 Quick Start
+## Quick Start
 
-Try our Matte Anything with our web-ui!
-
-![web_ui](figs/web_ui.gif)
 
 ### Quick Installation
 
@@ -84,16 +70,7 @@ python matte_anything.py
 2. Click ``Start!``.
 3. Modify ``erode_kernel_size`` and ``dilate_kernel_size`` for a better trimap (optional).
 
-## 🎬 Demo
 
-
-https://github.com/hustvl/Matte-Anything/assets/74295796/dfe051c2-b5d1-442d-9eff-cd1fcfd1f51b
-
-
-Visualization of SAM and MatAny on real-world data from [AM-2K](https://github.com/JizhiziLi/GFM) and [P3M-500](https://github.com/JizhiziLi/P3M) .
-![web_ui](figs/demo1.png)
- Visualization of SAM and MatAny on [Composition-1k](https://arxiv.org/pdf/1703.03872v3.pdf)
-![web_ui](figs/demo2.png)
 
 
 ## 📋 Todo List
