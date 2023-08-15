@@ -1,6 +1,6 @@
 <div align="center">
 <h1>decompose-anything</h1>
-<h3> use SAM and some new tech to decompose layers wisely.  </h3>
+<h3> use SAM and some new tech cooperating with Inpaint to decompose layers wisely.  </h3>
 
 Authors: 
 
@@ -28,10 +28,11 @@ Institute:
 
 
 ## Features
+* Inpaint wisely with Layer Knowledge and User design
 * Matte Anything with Simple Interaction
 * High Quality Matting and Mask Results
 * Ability to Process Transparent Object
-
+  
 
 ## Quick Start
 
