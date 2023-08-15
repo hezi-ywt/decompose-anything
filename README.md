@@ -79,7 +79,8 @@ Download pretrained models [SAM_vit_h](https://dl.fbaipublicfiles.com/segment_an
 - [] layer perception part
 ## Matte part
 we find a good matte repo Matte-Anything which part similar as our matte thinking.And we use their repo to do some matte work.
-![matte example](https://github.com/hezi-ywt/decompose-anything/blob/main/V2C)T%24Z%607X61Y%25ZXBG%24Y(32.png)
+![matte example](example\matte1.png)
+![matte example](example\matte2.png)
 
 ## Acknowledgement
 
@@ -91,6 +92,7 @@ we find a good matte repo Matte-Anything which part similar as our matte thinkin
 - [matte_Anything](https://github.com/hustvl/Matte-Anything)
 - [ViTMatte](https://github.com/hustvl/ViTMatte)
 
+Thanks to their work we can easilier get good output.
 ## Citation
 ```
 @article{decompose_anything,
