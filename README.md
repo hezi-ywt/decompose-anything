@@ -82,8 +82,8 @@ Download pretrained models [SAM_vit_h](https://dl.fbaipublicfiles.com/segment_an
 ![decompose_component](example/decompose_component.png)
 ## Matte part
 we find a good matte repo Matte-Anything which part similar as our matte thinking.And we use their repo to do some matte work.
-![matte example](example\matte1.png)
-![matte example](example\matte2.png)
+![matte example](example/matte1.png)
+![matte example](example/matte2.png)
 
 ## Acknowledgement
 
