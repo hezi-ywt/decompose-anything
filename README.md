@@ -77,7 +77,8 @@ Download pretrained models [SAM_vit_h](https://dl.fbaipublicfiles.com/segment_an
 - [] Matte part
 - [] Inpaint part
 - [] layer perception part
-
+## Input Signal
+![input_signal](example/input_signal.png)
 ## Decompose component
 ![decompose_component](example/decompose_component.png)
 ## Matte part
